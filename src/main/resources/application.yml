@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://db:5432/cloud
+    username: postgres
+    password: pass
+  servlet:
+    multipart:
+      max-request-size: 50MB
+      max-file-size: 50MB
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+logging:
+  level:
+    org:
+      springframework:
+        security: ERROR
+        web: TRACE
+      hibernate:
+        SQL: DEBUG
+
+app:
+  default_user:
+    username: u@mail.ru
+    password: pass
+  files:
+    directory: users_files
+  jwt:
+    secret: 8sdf49we1cas5df4r7ss6f483a6
+    lifetime: 30
+    token_header: auth-token
