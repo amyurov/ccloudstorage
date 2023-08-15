@@ -1,6 +1,8 @@
 package com.github.amyurov.cloudstorage.security;
 
-import com.github.amyurov.cloudstorage.user.UserCredentialsDTO;
+import com.github.amyurov.cloudstorage.controller.AuthenticationController;
+import com.github.amyurov.cloudstorage.dto.UserCredentialsDTO;
+import com.github.amyurov.cloudstorage.service.AuthenticationService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

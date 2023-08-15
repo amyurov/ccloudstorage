@@ -1,7 +1,7 @@
 package com.github.amyurov.cloudstorage.mapper;
 
-import com.github.amyurov.cloudstorage.file.FileDTO;
-import com.github.amyurov.cloudstorage.file.FileEntity;
+import com.github.amyurov.cloudstorage.dto.FileDTO;
+import com.github.amyurov.cloudstorage.entity.FileEntity;
 import org.springframework.stereotype.Component;
 
 @Component

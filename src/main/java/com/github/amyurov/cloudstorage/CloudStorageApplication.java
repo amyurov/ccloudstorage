@@ -1,7 +1,7 @@
 package com.github.amyurov.cloudstorage;
 
-import com.github.amyurov.cloudstorage.registration.RegistrationService;
-import com.github.amyurov.cloudstorage.user.User;
+import com.github.amyurov.cloudstorage.service.RegistrationService;
+import com.github.amyurov.cloudstorage.entity.User;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -28,29 +28,6 @@ public class CloudStorageApplication implements CommandLineRunner {
     public static void main(String[] args) {
         SpringApplication.run(CloudStorageApplication.class, args);
     }
-
-//    @Bean
-//    public CommandLineRunner CommandLineRunnerBean() {
-//        return (args) -> {
-//            Pattern pattern = Pattern.compile("^[a-zA-Z0-9_-]+$");
-//            Matcher matcher = pattern.matcher(filesDirectory);
-//            if (!matcher.matches()) {
-//                log.error("Имя директории содержит недопустимые символы. Допускаются только буквы и цифры");
-//            }
-//
-//            File filesDir = new File(filesDirectory);
-//            if (filesDir.exists()) {
-//                log.info("Директория файлов определена " + filesDirectory);
-//            } else if (filesDir.mkdir()) {
-//                log.info("Директория файлов создана " + filesDirectory);
-//            }
-//            registerDefaultUser(username, password);
-//            log.info("\nПользователь по умолчанию:\n" +
-//                    "username: " + username + "\n" +
-//                    "password: " + password);
-//        };
-//    }
-
 
     @Override
     public void run(String... args) throws Exception {

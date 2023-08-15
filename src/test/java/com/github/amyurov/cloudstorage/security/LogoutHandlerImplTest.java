@@ -1,6 +1,6 @@
 package com.github.amyurov.cloudstorage.security;
 
-import com.github.amyurov.cloudstorage.jwt.JwtService;
+import com.github.amyurov.cloudstorage.service.JwtService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

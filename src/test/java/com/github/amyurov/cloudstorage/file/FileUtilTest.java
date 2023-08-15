@@ -1,7 +1,8 @@
 package com.github.amyurov.cloudstorage.file;
 
-import com.github.amyurov.cloudstorage.user.User;
-import com.github.amyurov.cloudstorage.user.UserService;
+import com.github.amyurov.cloudstorage.entity.User;
+import com.github.amyurov.cloudstorage.service.UserService;
+import com.github.amyurov.cloudstorage.util.FileUtil;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

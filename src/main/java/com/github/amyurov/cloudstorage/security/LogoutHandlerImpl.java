@@ -1,6 +1,6 @@
 package com.github.amyurov.cloudstorage.security;
 
-import com.github.amyurov.cloudstorage.jwt.JwtService;
+import com.github.amyurov.cloudstorage.service.JwtService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;

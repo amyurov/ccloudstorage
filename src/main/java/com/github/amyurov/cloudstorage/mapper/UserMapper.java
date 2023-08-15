@@ -1,7 +1,7 @@
 package com.github.amyurov.cloudstorage.mapper;
 
-import com.github.amyurov.cloudstorage.user.User;
-import com.github.amyurov.cloudstorage.user.UserCredentialsDTO;
+import com.github.amyurov.cloudstorage.entity.User;
+import com.github.amyurov.cloudstorage.dto.UserCredentialsDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

@@ -1,7 +1,7 @@
 package com.github.amyurov.cloudstorage.config;
 
-import com.github.amyurov.cloudstorage.jwt.JwtFilter;
-import com.github.amyurov.cloudstorage.user.UserService;
+import com.github.amyurov.cloudstorage.security.JwtFilter;
+import com.github.amyurov.cloudstorage.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

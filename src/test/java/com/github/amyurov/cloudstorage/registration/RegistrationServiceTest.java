@@ -1,7 +1,8 @@
 package com.github.amyurov.cloudstorage.registration;
 
-import com.github.amyurov.cloudstorage.user.User;
-import com.github.amyurov.cloudstorage.user.UserRepository;
+import com.github.amyurov.cloudstorage.entity.User;
+import com.github.amyurov.cloudstorage.repository.UserRepository;
+import com.github.amyurov.cloudstorage.service.RegistrationService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

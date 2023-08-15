@@ -1,5 +1,9 @@
 package com.github.amyurov.cloudstorage.user;
 
+import com.github.amyurov.cloudstorage.entity.User;
+import com.github.amyurov.cloudstorage.enums.UserRole;
+import com.github.amyurov.cloudstorage.repository.UserRepository;
+import com.github.amyurov.cloudstorage.service.UserService;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

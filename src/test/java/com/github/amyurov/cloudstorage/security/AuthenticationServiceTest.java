@@ -1,8 +1,9 @@
 package com.github.amyurov.cloudstorage.security;
 
-import com.github.amyurov.cloudstorage.jwt.JwtResponse;
-import com.github.amyurov.cloudstorage.jwt.JwtUtil;
-import com.github.amyurov.cloudstorage.user.UserCredentialsDTO;
+import com.github.amyurov.cloudstorage.dto.JwtResponse;
+import com.github.amyurov.cloudstorage.dto.UserCredentialsDTO;
+import com.github.amyurov.cloudstorage.service.AuthenticationService;
+import com.github.amyurov.cloudstorage.util.JwtUtil;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

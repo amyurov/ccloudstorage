@@ -1,5 +1,8 @@
 package com.github.amyurov.cloudstorage.file;
 
+import com.github.amyurov.cloudstorage.controller.FileController;
+import com.github.amyurov.cloudstorage.dto.UpdateFileData;
+import com.github.amyurov.cloudstorage.service.FileService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
